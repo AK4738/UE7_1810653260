@@ -18,7 +18,7 @@ public class Aufgabe_3 {
     }
 
 
-    private  boolean checkEmail() throws Exception {
+    private static boolean checkEmail() throws Exception {
         String email = JOptionPane.showInputDialog("Bitte Email eingeben!");
 
         Pattern pattern = Pattern.compile("[\\w|-]+@\\w[\\w|-]*\\.[a-z]{2,3}");
